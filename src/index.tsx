@@ -3,7 +3,7 @@ import React, {useCallback, useEffect, useState} from "react";
 import {motion, AnimatePresence, useMotionValue, animate} from "framer-motion";
 import {X} from "lucide-react";
 
-interface DBSProps {
+export interface DBSProps {
     open: boolean;
     onClose: () => void;
     title?: React.ReactNode;

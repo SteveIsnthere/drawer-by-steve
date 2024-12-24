@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
     "jsx": "react",
     "declaration": true,
-    "declarationDir": "types",
+    "declarationDir": "dist",
     "outDir": "dist",
     "strict": true,
-    "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
